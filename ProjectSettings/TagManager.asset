@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ElevatorButton
   - FloorIndicator
+  - ElevatorPanellButton
   layers:
   - Default
   - TransparentFX

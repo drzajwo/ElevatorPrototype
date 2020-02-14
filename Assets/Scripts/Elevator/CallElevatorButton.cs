@@ -10,11 +10,11 @@ public class CallElevatorButton : MonoBehaviour
     public int floor;
     public bool upDirection;
 
-    private ElevatorController elevatorController;
+    private ElevatorController m_ElevatorController;
 
     private void Start()
     {
-        elevatorController = elevator.GetComponent<ElevatorController>();
+        m_ElevatorController = elevator.GetComponent<ElevatorController>();
     }
 
     public void CallElevator()
@@ -22,6 +22,6 @@ public class CallElevatorButton : MonoBehaviour
         // change button color
         // play animation
         // play sound
-        elevatorController.Call(floor, upDirection);
+        m_ElevatorController.Call(floor, upDirection);
     }
 }

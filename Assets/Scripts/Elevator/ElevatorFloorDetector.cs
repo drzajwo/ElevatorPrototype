@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class ElevatorFloorDetector : MonoBehaviour
 {
-    private ElevatorController controller;
+    private ElevatorController m_Controller;
+
     private void Start()
     {
-        controller = GetComponentInParent<ElevatorController>();
+        m_Controller = GetComponentInParent<ElevatorController>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -16,6 +17,6 @@ public class ElevatorFloorDetector : MonoBehaviour
         if (!other.CompareTag("FloorIndicator")) return;
         var splittedName = other.name.Split('_');
         var currentFloor = int.Parse(splittedName[1]);
-        controller.UpdateFloor(currentFloor);
+        m_Controller.UpdateFloor(currentFloor);
     }
 }
