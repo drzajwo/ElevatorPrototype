@@ -1,27 +1,27 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CallElevatorButton : MonoBehaviour
+namespace Elevator
 {
-    public BoxCollider floorCollider;
-    public GameObject elevator;
-    public int floor;
-    public bool upDirection;
-
-    private ElevatorController m_ElevatorController;
-
-    private void Start()
+    public class CallElevatorButton : MonoBehaviour
     {
-        m_ElevatorController = elevator.GetComponent<ElevatorController>();
-    }
+        public BoxCollider floorCollider;
+        public GameObject elevator;
+        public int floor;
+        public bool upDirection;
 
-    public void CallElevator()
-    {
-        // change button color
-        // play animation
-        // play sound
-        m_ElevatorController.Call(floor, upDirection);
+        private ElevatorController m_ElevatorController;
+        
+        private void Start()
+        {
+            m_ElevatorController = elevator.GetComponent<ElevatorController>();
+        }
+
+        public void CallElevator()
+        {
+            // change button color
+            // play animation
+            // play sound
+            m_ElevatorController.Call(floor, upDirection);
+        }
     }
 }

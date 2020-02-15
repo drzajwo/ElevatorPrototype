@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ElevatorSounds.cs" t="Include" />
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
             <e p="Scripts" t="Include">
@@ -37,6 +38,9 @@
           </e>
           <e p="Player" t="Include">
             <e p="ObjectSelector.cs" t="Include" />
+          </e>
+          <e p="Sounds" t="Include">
+            <e p="Sound.cs" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">

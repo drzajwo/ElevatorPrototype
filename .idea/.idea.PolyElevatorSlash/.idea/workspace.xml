@@ -2,23 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d4df1c-02c6-45fe-9f1d-a59749691e6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/proto_3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/proto_3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ElevatorSounds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Button_Floor_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Button_Floor_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/Sound.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/Sound.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/elevator_door_close.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/elevator_door_close.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/elevator_door_open.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/elevator_door_open.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/elevator_move_start.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/elevator_move_start.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/elevator_moving.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/elevator_moving.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_door_close.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_door_close.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_door_open.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_door_open.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_move.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_move.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_move_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_move_2.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_move_3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_move_3.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_start.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_start.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_stop.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Elevator/v2/elevator_stop.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/beep.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/beep.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/button_click.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/button_click.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/close_doors_normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/close_doors_normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/down_normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/down_normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/floor_0_normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/floor_0_normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/floor_1_normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/floor_1_normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/floor_2_normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/floor_2_normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/open_doors_normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/open_doors_normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/up_highlight.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/up_highlight.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/up_normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/Materials/up_normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/close_doors_highlight.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/close_doors_highlight.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/close_doors_normal.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/close_doors_normal.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/down_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/down_highlight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/down_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/down_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_0_highlight.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_0_highlight.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_0_normal.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_0_normal.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_1_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_1_highlight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_1_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_1_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_2_highlight.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_2_highlight.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_2_normal.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/floor_2_normal.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/open_doors_highlight.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/open_doors_highlight.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/open_doors_normal.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/open_doors_normal.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/up_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/up_highlight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/up_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Buttons/up_normal.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PolyElevatorSlash/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PolyElevatorSlash/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PolyElevatorSlash/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PolyElevatorSlash/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PolyElevatorSlash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PolyElevatorSlash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevator.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevator_door_close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevator_door_close.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ElevatorFloorDetector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ElevatorFloorDetector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ObjectSelector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ObjectSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevator_door_open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Elevator_door_open.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CallElevatorButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CallElevatorButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ElevatorController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ElevatorController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator/CallElevatorButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator/CallElevatorButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorFloorDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorFloorDetector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorPlayerDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorPlayerDetection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator/InsideElevatorButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator/InsideElevatorButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ObjectSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ObjectSelector.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +105,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Desktop/Studia UJ/Vestra C - Human Race Liberation/Assets/Scripts/Player/ShootProjectile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Downloads/elevator/Elevator/Assets/Scripts/LiftButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Downloads/elevator/Elevator/Assets/Scripts/Lift.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Desktop/Studia UJ/Vestra C - Human Race Liberation/Assets/Scripts/Audio/Sound.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator/CallElevatorButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Downloads/elevator/Elevator/Assets/Scripts/MainCamScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ElevatorSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorFloorDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Desktop/Studia UJ/Vestra C - Human Race Liberation/Assets/Scripts/Player/RocketController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Desktop/Studia UJ/Vestra C - Human Race Liberation/Assets/PlayerSound.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorPlayerDetection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator/InsideElevatorButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ObjectSelector.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +137,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ElevatorFloorDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ElevatorPlayerDetection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InsideElevatorButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorFloorDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorPlayerDetection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator/InsideElevatorButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ObjectSelector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator/ElevatorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/ElevatorSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator/CallElevatorButton.cs" />
       </list>
     </option>
   </component>
@@ -108,6 +203,7 @@
       <updated>1581535447964</updated>
       <workItem from="1581535454392" duration="26083000" />
       <workItem from="1581704025611" duration="10921000" />
+      <workItem from="1581770869598" duration="5626000" />
     </task>
     <servers />
   </component>
@@ -121,7 +217,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -139,5 +237,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581621073247" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581779595082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581779595082" />
   </component>
 </project>
